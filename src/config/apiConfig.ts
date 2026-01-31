@@ -7,7 +7,7 @@ export const API_BASE_URL = `http://${YOUR_COMPUTER_IP}:${PORT}/sfinternal`;
 
 export const API_ENDPOINTS = {
   // Auth endpoints
-  LOGIN: `${API_BASE_URL}/getAccount/getUser`,
+  LOGIN: `${API_BASE_URL}/getUser`,
   OUTSTANDING_REPORT: '${API_BASE_URL}/sf/hsnlocal/outstandingReport',
 };
 

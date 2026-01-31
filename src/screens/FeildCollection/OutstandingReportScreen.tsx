@@ -129,9 +129,6 @@ const OutstandingReportScreen = () => {
   const [showFromModal, setShowFromModal] = useState(false);
   const [showToModal, setShowToModal] = useState(false);
 
-  // ────────────────────────────────────────────────
-  // Load groups & customers
-  // ────────────────────────────────────────────────
   useEffect(() => {
     const loadData = async () => {
       setLoadingCustomers(true);

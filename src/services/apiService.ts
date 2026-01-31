@@ -64,16 +64,6 @@ class ApiService {
       credentials,
     );
   }
-
-  // Add more API methods here as needed
-  // async getProfile(token: string): Promise<ProfileResponse> {
-  //   return this.makeRequest<ProfileResponse>(
-  //     API_ENDPOINTS.GET_PROFILE,
-  //     'GET',
-  //     null,
-  //     { Authorization: `Bearer ${token}` }
-  //   );
-  // }
 }
 
 export default new ApiService();
